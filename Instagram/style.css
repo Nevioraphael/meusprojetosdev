@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    width: 100%;
+    height: 100vh;
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+  
+  input {
+    height: 36px;
+    margin-top: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #262626;
+}
+  
+  button {
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+  
+  p {
+    font-size: 14px;
+    text-align: center;
+}
+  
+ select {
+    /* appearance: none; */
+    outline: none;
+    border: none;
+    color: #737373;
+}
+  
+.container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.caixa-imagens {
+    position: relative;
+}
+  
+.img-devgram {
+    position: absolute;
+    height: 524px;
+    left: 151px;
+    top: 25px;
+}
+  
+.img-celular {
+    width: 450px;
+}
+  
+.caixa-form {
+    width: 350px;
+    background-color: #ffffff;
+    padding: 50px 40px 20px 40px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.login-facebook {
+    color: #385185;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.esqueceu-senha {
+    color: #385185;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.caixa-cadastro {
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    width: 350px;
+    height: 63px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.link-cadastro {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #0095f6;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.caixa-apps {
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+  
+.imagem-apps {
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+  
+.caixa-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}  
+  
+.caixa-links a {
+    color: #737373;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: lighter;
+}
+  
+.caixa-links a:hover {
+    text-decoration: underline;
+}
+  
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+} 
+  
+.rodape p {
+    color: #737373;
+    font-size: 13px;
+}
+  
+/*Responsividade*/
+@media (max-width: 768px) {
+    body {
+    width: 100vw;
+    height: 100vh;
+      
+}
+.img-celular {
+    display: none;
+}
+.img-devgram {
+    display: none;
+}
+  
+.caixa-form {
+    width: 400px;
+    margin-top: 300px;
+}
+  
+.caixa-cadastro {
+    width: 400px;
+}
+  
+.caixa-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+  
+.caixa-links a {
+    font-size: 14px;
+}
+  
+.caixa-apps {
+    width: 400px;
+}
+    
+}
